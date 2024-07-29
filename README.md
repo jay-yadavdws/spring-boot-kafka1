@@ -12,9 +12,9 @@ Spring Boot With Kafka Initial Setup &amp; Configuration Project
 
   2. `tar xzf kafka_2.13-3.6.0.tgz`
 
-  3. mv kafka_2.13-3.6.0 kafka
+  3. `mv kafka_2.13-3.6.0 kafka`
 
-  4. cd kafka/
+  4. `cd kafka/`
 
     
 * Setup Kafka Server using Kraft :
@@ -24,7 +24,7 @@ Spring Boot With Kafka Initial Setup &amp; Configuration Project
 
 Command 2 Creates a `/tmp/kraft-combined-logs/` folder
 ###All in One command :
-    ./bin/kafka-storage.sh format -t $(./bin/kafka-storage.sh random-uuid) -c ./config/kraft/server.properties  && ./bin/kafka-server-start.sh ./config/kraft/server.properties
+`./bin/kafka-storage.sh format -t $(./bin/kafka-storage.sh random-uuid) -c ./config/kraft/server.properties  && ./bin/kafka-server-start.sh ./config/kraft/server.properties`
 
 ### Topic Commands
 1. `./bin/kafka-topics.sh --list --bootstrap-server localhost:9092`
