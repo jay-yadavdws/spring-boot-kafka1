@@ -7,11 +7,12 @@ import lombok.Setter;
 
 import java.math.BigDecimal;
 
-@AllArgsConstructor
-@NoArgsConstructor
 @Getter
 @Setter
-public class ProductDetails {
+@NoArgsConstructor
+@AllArgsConstructor
+public class ProductCreatedEvent {
+    private String productId;
     private String productName;
     private BigDecimal productPrice;
 }

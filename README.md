@@ -23,7 +23,8 @@ Spring Boot With Kafka Initial Setup &amp; Configuration Project
   3. `./bin/kafka-server-start.sh ./config/kraft/server.properties`                     ----------   Start The Kafka server
 
 Command 2 Creates a `/tmp/kraft-combined-logs/` folder
-###All in One command :
+
+### Start Kafka Server with Kraft In One Command :
 `./bin/kafka-storage.sh format -t $(./bin/kafka-storage.sh random-uuid) -c ./config/kraft/server.properties  && ./bin/kafka-server-start.sh ./config/kraft/server.properties`
 
 ### Topic Commands
