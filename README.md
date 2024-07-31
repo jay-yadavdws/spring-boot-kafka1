@@ -2,7 +2,7 @@
 Spring Boot With Kafka Initial Setup &amp; Configuration Project
 
  * The Project has docker-compose file that can be used to create Kafka Broker.
-
+ * Swagger-UI available at `localhost:8080/swagger-ui/index.html`
 ### Some important Kafka Commands: 
 
 
